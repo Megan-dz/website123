@@ -7,82 +7,49 @@ export const getAsset = (path: string) => {
 const siteConfig = {
   personal: {
     name: 'Megan DCruz',
-    title: 'Bsc Economics and Data Science Student',
+    title: 'Undergraduate Student',
     image: getAsset('images/Resume_Pic (1).png'), // Customize or replace with your profile image
     description:
-      'Write a short bio here describing your background and focus. Keep it to 2–4 sentences.\n' +
+      'A first year Economics and Data Science major who loves exploring the role of data in economics.\n' +
       '\n' +
-      'Mention your institution or company, areas of interest, and what you teach or build.\n' +
+      'Christ University\n' +
       '\n' +
-      'Summarize your education or certifications briefly and highlight your practical work.\n' +
-      '\n' +
+    
       'Optional: Add notable books, workshops, or training you deliver.',
-    tagline: 'Add a concise personal tagline here.',
-    location: 'Your City, Country',
+    tagline: 'Exploring economics through data analytics.',
+    location: 'Bangalore, India',
   },
 
   seo: {
-    title: 'Your Name – Your Title',
-    description: "Portfolio website showcasing your education, research, projects, and experience.",
+    title: 'Megan Dcruz – Undergraduate Student',
+    description: "Portfolio website showcasing my education, projects, and experience.",
   },
 
-  animatedText: ['Your Role', 'Your Focus', 'Your Interest', 'Builder'],
+  animatedText: ['Economics student', 'Data analytics enthusiast', 'Christ University', 'Data Science student'],
 
   navigation: [
     { name: 'Home', url: '/' },
     { name: 'Projects', url: '/projects' },
-    { name: 'Research', url: '/research' },
     { name: 'Education', url: '/education' },
     { name: 'Experience', url: '/experience' },
-    { name: 'Blogs', url: '/blogs' },
     { name: 'Resume', url: '/resume' },
     { name: 'Contact', url: '/contact' },
   ],
 
   // Static blog entries. Use getAsset so the URL respects NEXT_PUBLIC_BASE_PATH / next.config.basePath
   // Add more entries here as you add more static HTML blog files under public/static_page/
-  blogs: [
-    {
-      title: 'Your Blog Title',
-      url: getAsset('static_page/project_management_blog.html'), // Replace with your static HTML page
-    },
-  ],
+ 
 
 
   education: [
     {
-      institution: 'Your Institution',
-      degree: 'Your Degree',
-      year: 'YYYY–YYYY',
+      institution: 'Christ university',
+      degree: 'Bachelor of Science in Economics with Data Science',
+      year: '2025–2028',
       image: getAsset('images/education/placeholder.png'),
-      description: ['Brief description of your focus or thesis'],
-    },
-    {
-      institution: 'Another Institution',
-      degree: 'Another Degree or Certificate',
-      year: 'YYYY–YYYY',
-      image: getAsset('images/education/placeholder.png'),
-      description: ['Key topics or skills learned'],
+      description: ['Mathematics, Statistical tools, Data Visualization, Microeconomics, Macroeconomics'],
     },
   ],
-
-// ✅ Unified MOOC + Certifications Section
-  certifications: [
-    {
-      title: 'Your Certificate or Specialization',
-      specialization: true,
-      file: getAsset('images/education/Certifications/download.svg'),
-      certificates: [
-        { name: 'Course 1', file: getAsset('images/education/Certifications/download.svg') },
-        { name: 'Course 2', file: getAsset('images/education/Certifications/download.svg') },
-      ],
-    },
-    {
-      title: 'Another Certificate',
-      file: getAsset('images/education/Certifications/download.svg'),
-    },
-  ],
-
 
 
   // ✅ Experience section updated
@@ -107,52 +74,19 @@ const siteConfig = {
   // ✅ Projects section updated
   projects: [
     {
-      title: 'Project Title 1',
+      title: 'Netflix_Rating_Analysis',
       cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Short description of your project and what it does...',
-      Githublink: 'https://github.com/your-username/your-project',
+      description: 'An analysis of Netflix ratings using Excel and data visualization to uncover viewer trends and preferences.',
+      Githublink: 'https://github.com/Megan-dz/Netflix_Content_Analysis',
     },
-    {
-      title: 'Project Title 2',
-      cardImage: getAsset('images/project/placeholder.png'),
-      description: 'Another project summary...',
-      Githublink: 'https://github.com/your-username/another-project',
-    },
+
   ],
 
-
-  research: [
-    {
-      title: 'Your Paper or Research Title',
-      authors: 'Your Name, Collaborator Name',
-      conferences: 'Conference or Journal, Publisher',
-      researchYr: 2024,
-  image: getAsset('images/research/placeholder.png'),
-      citation: {
-        vancouver:
-          'Author A, Author B. Title of the work. Venue, Year. DOI/URL.',
-      },
-      abstract:
-        'One or two sentences summarizing the contribution...',
-      link: 'https://example.com/your-publication',
-    },
-  ],
-
-  books: [
-    {
-      title: 'Your Book Title',
-      description: 'Short description of your book or resource.',
-      image: getAsset('images/book_cover_placeholder.png'),
-      link: 'https://example.com/your-book',
-    },
-  ],
 
   contact: {
-    email: 'your.email@example.com',
-    linkedin: 'https://www.linkedin.com/in/your-linkedin/',
-    github: 'https://github.com/your-username',
-    googleScholar: 'https://scholar.google.com/citations?user=YOURID',
-    orcid: 'https://orcid.org/0000-0000-0000-0000',
+    email: 'megandz07@gmail.com',
+    linkedin: 'https://www.linkedin.com/in/megan-anriya-dcruz-mnsk070711/',
+    github: 'https://github.com/Megan-dz',
   },
 };
 
