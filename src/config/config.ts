@@ -6,7 +6,7 @@ export const getAsset = (path: string) => {
 
 const siteConfig = {
   personal: {
-    name: 'Megan DCruz',
+    name: 'Megan Dcruz',
     title: 'Undergraduate Student',
     image: getAsset('images/Resume_Pic (1).png'), // Customize or replace with your profile image
     description:
